@@ -21,9 +21,9 @@
 	"useODBC": true,
 	"requestType": "soap",
 	"endPoints": {
-		"testConnection": "http://www.dataaccess.com/webservicesserver/NumberConversion.wso/NumberToWords",
+		"testConnection": "http://www.dataaccess.com/webservicesserver/NumberConversion.wso",
 		"getId": "",
-		"insertAttachment": "http://www.dataaccess.com/webservicesserver/NumberConversion.wso/NumberToWords",
+		"insertAttachment": "http://www.dataaccess.com/webservicesserver/NumberConversion.wso",
 		"includePhotoInPOST": false,
 		"ssl": true,
 		"sslCertFile": "",
