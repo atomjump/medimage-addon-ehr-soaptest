@@ -32,12 +32,12 @@
                        "Accept: text/xml",
                         "Cache-Control: no-cache",
                         "Pragma: no-cache",
-                        "SOAPAction: [soapEndpoint]", 
+                        "SOAPAction:", 
                         "Content-length: [contentLength]" ]
 	},
 	"responseObjects": {
 		"testConnection": {
-			"success" :	"string",
+			"success" :	"Body.NumberToWordsResponse.NumberToWordsResult",
 			"successValue": "ten "	
 		},
 		"getId": {
@@ -48,7 +48,7 @@
 			"duplicateValue": ""
 		},
 		"insertAttachment" :{
-			"success" :	"string",
+			"success" :	"Body.NumberToWordsResponse.NumberToWordsResult",
 			"successValue": "ten "
 		}
 	},		
