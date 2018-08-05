@@ -1,25 +1,11 @@
 {
 	"photoPathMatch": "(.*)\\\\(.*)\\\\(.*).jpg",
 	"photoVars": ["parentphotodir", "NHID", "photoname"],
-	"testConnectionQuery": "&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-&lt;soap12:Envelope xmlns:soap12=&quot;http://www.w3.org/2003/05/soap-envelope&quot;&gt;
-  &lt;soap12:Body&gt;
-    &lt;NumberToWords xmlns=&quot;http://www.dataaccess.com/webservicesserver/&quot;&gt;
-      &lt;ubiNum&gt;10&lt;/ubiNum&gt;
-    &lt;/NumberToWords&gt;
-  &lt;/soap12:Body&gt;
-&lt;/soap12:Envelope&gt;",
+	"testConnectionQuery": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <NumberToWords xmlns=\"http://www.dataaccess.com/webservicesserver/\">\n      <ubiNum>10</ubiNum>\n    </NumberToWords>\n  </soap12:Body>\n</soap12:Envelope>",
 	"testConnectionShowField": "",
 	"createUserQuery": "",	
 	"getIdQuery": "",
-	"insertAttachmentQuery": "&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-&lt;soap12:Envelope xmlns:soap12=&quot;http://www.w3.org/2003/05/soap-envelope&quot;&gt;
-  &lt;soap12:Body&gt;
-    &lt;NumberToWords xmlns=&quot;http://www.dataaccess.com/webservicesserver/&quot;&gt;
-      &lt;ubiNum&gt;10&lt;/ubiNum&gt;
-    &lt;/NumberToWords&gt;
-  &lt;/soap12:Body&gt;
-&lt;/soap12:Envelope&gt;",
+	"insertAttachmentQuery": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">\n  <soap12:Body>\n    <NumberToWords xmlns=\"http://www.dataaccess.com/webservicesserver/\">\n      <ubiNum>10</ubiNum>\n    </NumberToWords>\n  </soap12:Body>\n</soap12:Envelope>",
 	"host": "localhost",
 	"dbname": "C:\\MT32\\data\\MT32.ib",
 	"username": "SYSDBA",
