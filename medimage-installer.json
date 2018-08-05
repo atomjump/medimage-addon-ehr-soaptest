@@ -1,13 +1,13 @@
 {
   "author": "AtomJump.com",
-  "name": "ehr-medtech32",
-  "description": "MedTech32 config for EHR Connector Add-on for MedImage",
-  "version": "0.2.8",
+  "name": "ehr-soaptest",
+  "description": "SOAP Testing config for EHR Connector Add-on for MedImage",
+  "version": "0.0.1",
   "private": false,
   "license": "MIT License",
   "successMessages": {
   	"all": {
-  		"main": "Your installation was successful. You should now configure your connection to MedTech32's Interbase database. Click the 'EHR Connector' tab to get started.",
+  		"main": "Your installation was successful. You should now configure your connection. Click the 'EHR Connector' tab to get started.",
   		"extended": ""
   	}
   },
@@ -15,24 +15,10 @@
   	 "all": [
   	  ],
   	  "win32": [
-  	  	  "COPY ehrconnect.json ..\\ehrconnect\\config\\ehrconnect.json", 
-  	      "if not exist C:\\odbc-interbase\\ ( MKDIR C:\\odbc-interbase )",
-  	      "MOVE .\\odbc\\odbcibinstall.exe C:\\odbc-interbase\\odbcibinstall.exe",
-  	      { 
-  	      	"attempt": "C:\\odbc-interbase\\odbcibinstall.exe \/S",
-  	      	"timeoutAfterSeconds": 10,
-  	      	"warnOnTimeout": "Sorry, we could not install your database connector driver (Interbase ODBC) automatically. If it is not already installed, please open File Manager and double click the installer at C:|odbc-interbase|odbcibinstall.exe."
-  	      }
+  	  	  "COPY ehrconnect.json ..\\ehrconnect\\config\\ehrconnect.json"
   	  ],
   	  "win64": [
-  	  	  "COPY ehrconnect.json ..\\ehrconnect\\config\\ehrconnect.json", 
-  	      "if not exist C:\\odbc-interbase\\ ( MKDIR C:\\odbc-interbase )",
-  	      "MOVE .\\odbc\\odbcibinstall.exe C:\\odbc-interbase\\odbcibinstall.exe",
-  	      { 
-  	      	"attempt": "C:\\odbc-interbase\\odbcibinstall.exe \/S",
-  	      	"timeoutAfterSeconds": 10,
-  	      	"warnOnTimeout": "Sorry, we could not install your database connector driver (Interbase ODBC) automatically. If it is not already installed, please open File Manager and double click the installer at C:|odbc-interbase|odbcibinstall.exe."
-  	      }
+  	  	  "COPY ehrconnect.json ..\\ehrconnect\\config\\ehrconnect.json"
   	  ],
   	  "unix": [
   	  ],
@@ -44,12 +30,8 @@
   	 "all": [
   	  ],
   	  "win32": [
-  	  	"if exist C:\\odbc-interbase\\odbcibinstall.exe (del C:\\odbc-interbase\\odbcibinstall.exe)",
-  	  	"if exist (rmdir C:\\odbc-interbase)"
   	  ],
   	  "win64": [
-  	  	 "if exist C:\\odbc-interbase\\odbcibinstall.exe (del C:\\odbc-interbase\\odbcibinstall.exe)",
-  	  	 "if exist (rmdir C:\\odbc-interbase)"
   	  ],
   	  "unix": [
   	  ],
