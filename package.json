@@ -1,0 +1,29 @@
+{
+  "author": "AtomJump.com",
+  "name": "medimage-addon-ehr-soaptest",
+  "description": "A SOAP test for EHR Connector Add-on for MedImage",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "install": ""
+  },
+  "dependencies": {
+    "jimp": "*",
+    "upath": "*",
+    "querystring": "*",
+    "async": "*",
+    "fs-extra": "*",
+    "cheerio": "*",
+    "unzip": "*",
+    "request": "*"    
+  },
+  "repository" : { 
+     "type" : "git",
+     "url" : "https://github.com/atomjump/medimage-addon-ehr-soaptest.git"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=4.2"
+  },
+  "license" : "MIT License"
+}
