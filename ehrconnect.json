@@ -1,25 +1,25 @@
 {
 	"photoPathMatch": "(.*)\\\\(.*)\\\\(.*).jpg",
 	"photoVars": ["parentphotodir", "NHID", "photoname"],
-	"testConnectionQuery": "<?xml version=\"1.0\" encoding=\"utf-8\"?>
-<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">
-  <soap12:Body>
-    <NumberToWords xmlns=\"http://www.dataaccess.com/webservicesserver/\">
-      <ubiNum>10</ubiNum>
-    </NumberToWords>
-  </soap12:Body>
-</soap12:Envelope>",
+	"testConnectionQuery": "&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;soap12:Envelope xmlns:soap12=&quot;http://www.w3.org/2003/05/soap-envelope&quot;&gt;
+  &lt;soap12:Body&gt;
+    &lt;NumberToWords xmlns=&quot;http://www.dataaccess.com/webservicesserver/&quot;&gt;
+      &lt;ubiNum&gt;10&lt;/ubiNum&gt;
+    &lt;/NumberToWords&gt;
+  &lt;/soap12:Body&gt;
+&lt;/soap12:Envelope&gt;",
 	"testConnectionShowField": "",
 	"createUserQuery": "",	
 	"getIdQuery": "",
-	"insertAttachmentQuery": "<?xml version=\"1.0\" encoding=\"utf-8\"?>
-<soap12:Envelope xmlns:soap12=\"http://www.w3.org/2003/05/soap-envelope\">
-  <soap12:Body>
-    <NumberToWords xmlns=\"http://www.dataaccess.com/webservicesserver/\">
-      <ubiNum>10</ubiNum>
-    </NumberToWords>
-  </soap12:Body>
-</soap12:Envelope>",
+	"insertAttachmentQuery": "&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;soap12:Envelope xmlns:soap12=&quot;http://www.w3.org/2003/05/soap-envelope&quot;&gt;
+  &lt;soap12:Body&gt;
+    &lt;NumberToWords xmlns=&quot;http://www.dataaccess.com/webservicesserver/&quot;&gt;
+      &lt;ubiNum&gt;10&lt;/ubiNum&gt;
+    &lt;/NumberToWords&gt;
+  &lt;/soap12:Body&gt;
+&lt;/soap12:Envelope&gt;",
 	"host": "localhost",
 	"dbname": "C:\\MT32\\data\\MT32.ib",
 	"username": "SYSDBA",
