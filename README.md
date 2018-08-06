@@ -1,5 +1,5 @@
-# medimage-addon-ehr-medtech32
-MedTech32 config for EHR Connector Add-on for MedImage
+# medimage-addon-ehr-soaptest
+A testing configuration against a chosen-at-random public SOAP server.
 
 To create your own EHR connector, use this package as a template. The only files
 you need to change:
