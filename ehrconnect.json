@@ -25,6 +25,7 @@
 		"getId": "",
 		"insertAttachment": "http://www.dataaccess.com/webservicesserver/NumberConversion.wso",
 		"includePhotoInPOST": false,
+		"httpMethod": "POST",
 		"ssl": true,
 		"sslCertFile": "",
 		"timeoutFailureMs": 2000,
