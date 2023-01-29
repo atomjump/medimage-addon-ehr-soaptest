@@ -1,4 +1,7 @@
 # medimage-addon-ehr-soaptest
+
+__WARNING: this project has now moved to https://src.atomjump.com/atomjump/medimage-addon-ehr-soaptest.git__
+
 A testing configuration against a chosen-at-random public SOAP server.
 
 To create your own EHR connector, use this package as a template. The only files
